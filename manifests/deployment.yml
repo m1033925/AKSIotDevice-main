@@ -1,0 +1,20 @@
+
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: iotdeviceapp 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: iotdeviceapp
+  template:
+    metadata:
+      labels:
+        app: iotdeviceapp 
+    spec:
+      containers:
+        - name: iotdeviceapp 
+          image: sandhyacontreg.azurecr.io/iotdeviceapp
+          ports:
+          - containerPort: 80

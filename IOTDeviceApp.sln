@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOTDeviceApp", "IOTDeviceApp.csproj", "{3189D44D-CC4C-4874-9547-DCEEBB6FC371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "manifests", "manifests", "{D309C0FC-69A7-4F8C-A6A2-F5C5C181C40B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3189D44D-CC4C-4874-9547-DCEEBB6FC371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3189D44D-CC4C-4874-9547-DCEEBB6FC371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3189D44D-CC4C-4874-9547-DCEEBB6FC371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3189D44D-CC4C-4874-9547-DCEEBB6FC371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CACE7A9D-F1EB-4C65-B685-9F8EAD34D8B4}
+	EndGlobalSection
+EndGlobal
